@@ -1,0 +1,124 @@
+@font-face {
+    font-family: roboto;
+    src: url('./font/Roboto/Roboto-Regular.ttf');
+}
+body {
+    font-family: 'roboto','Times New Roman', Times, serif;
+}
+.header {
+    background-color: #1f2937;
+    margin: -10px;
+    padding: 0 200px 100px 200px;
+}
+.head {      
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    
+}
+.logo {
+    font-size: 24px;
+    color:#f9faf8;
+    font-weight: 900;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.link {
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;<link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    gap:18px;
+
+}
+.content {
+    padding-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+.main {
+    font-size: 48px;
+    color:#f9faf8;
+    width: 420px;
+    font-weight: 900;
+    margin-bottom: -17px;
+}
+.ftext {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 590px;
+    text-align: left;
+    font-size: 18px;
+}
+.ltext {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-basis: auto;
+    width:600px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #3282f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    border: navajowhite;
+    width: 110px;
+    height: 35px;
+    font-weight: 900;
+    font-size: 16px;
+    
+}
+.info {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 50px; 
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.empty-box{
+    margin: 0;
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3282f6;
+    border-radius: 20px;
+}
+.txt {
+    width: 170px;
+    font-size: 18px;
+    text-align: center;
+    color: #1f2937;
+    margin-top: 12px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    padding: 120px 280px;
+    margin-top: 100px;
+    font-weight: 300;
+}
+.au {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    padding-right: 50px;
+}
+.q {
+    
+}
